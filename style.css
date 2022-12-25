@@ -1,0 +1,25 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.custom{
+    height: 600px;
+}
+.customh2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border: 3px solid black;
+    font-weight: bolder;
+}
+.Contact{
+    border: 2px solid black;
+}
+footer{
+    height: 60px;
+    background-color: black;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+}
