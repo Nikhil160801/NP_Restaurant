@@ -15,6 +15,34 @@ header{
 .Contact{
     border: 2px solid black;
 }
+.customBtnColor:hover{
+ color: white;
+}
+.ctran:hover{
+     transform: rotate(-3deg); 
+}
+.ctran_1{
+    animation-name: change;
+    animation-duration: 1s;
+    animation-timing-function: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes change {
+ 0%{
+    text:Hello foodies;
+ }    
+ 50%{
+    text:Hello Dessert lovers;
+ }    
+ 100%{
+    text:Hello Dessert lovers;
+ }    
+}
+/* .ctran_1:hover{
+    transform: translate(24px);
+    width: 900px;
+    height: 900px;
+} */
 footer{
     height: 60px;
     background-color: black;
